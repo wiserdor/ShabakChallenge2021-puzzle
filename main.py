@@ -5,7 +5,7 @@
 # You need to move the cursor by sending new jwt token with an instruction code (Up, Down, Left etc...)
 # in response you will get the new cursor position and so on.
 
-# Target - Make the cursor go over all the points that are not part of the solution. if you will step on a solution point you will start over...
+# Target - Make the cursor go over all the points that are part of the solution. if you will step on a non-solution point you will start over...
 
 import random
 import requests
